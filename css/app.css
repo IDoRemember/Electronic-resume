@@ -53,3 +53,30 @@ body{
 .loading-circle-right {
     animation-delay: .8s;
 }
+
+.layer-horizontal {
+    position: relative;
+    width: 2000px;
+    height: 100%;
+    left: 0;
+    top:0;
+}
+
+.layer-horizontal .cloud {
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 200px;
+    background: url('../images/cloud.png')
+}
+
+.layer-horizontal .background {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height: 100px;
+    background: url('../images/background.png')
+}
+
