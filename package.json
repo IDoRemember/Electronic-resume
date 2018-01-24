@@ -1,0 +1,14 @@
+{
+    "name": "node_server",
+    "version": "0.0.1",
+    "description": "my first socket.io app",
+    "scripts": {
+        "start": "node index.js"
+      },
+    "dependencies": {
+      "express": "^4.15.2",
+      "jquery": "^3.2.1",
+      "socket.io": "^2.0.4"
+    }
+  }
+  

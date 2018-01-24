@@ -1,0 +1,12 @@
+# ignore node deps
+node_modules/
+
+# ignore compiled
+#build/
+
+# ignore dev compiled
+dev_build/
+
+# ignore webstorm project file
+.idea/
+
