@@ -1,4 +1,3 @@
-import { bind } from "./C:/Users/Administrator/AppData/Local/Microsoft/TypeScript/2.6/node_modules/@types/bluebird";
 
 var $window = $(window);
 var loading = $('.loading');
@@ -20,6 +19,7 @@ var Resume = {
     init:function(){
         var self = this;
         $window.scrollTop(0);
+        Me.init();
         //加载资源
         resourceHelper.load(images,function(result){
             loading.fadeOut();
@@ -59,3 +59,4 @@ var Resume = {
 
     }
 }
+Resume.init();
